@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-#df = pd.read_excel("5713.xlsx", sheet_name=1)
+df = pd.read_excel("5713.xlsx", sheet_name="Sheet1")
 
-a=100
-
-print(a)
+print(pd)
